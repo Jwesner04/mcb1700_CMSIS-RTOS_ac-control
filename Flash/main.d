@@ -1,0 +1,16 @@
+.\flash\main.o: main.c
+.\flash\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\flash\main.o: C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\LPC17xx.H
+.\flash\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h
+.\flash\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h
+.\flash\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h
+.\flash\main.o: C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\system_LPC17xx.h
+.\flash\main.o: GLCD.h
+.\flash\main.o: Serial.h
+.\flash\main.o: LED.h
+.\flash\main.o: ADC.h
+.\flash\main.o: mcb1700_joystick.h
+.\flash\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\flash\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\INC\cmsis_os.h
+.\flash\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h

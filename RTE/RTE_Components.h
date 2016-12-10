@@ -3,8 +3,8 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'Blinky' 
- * Target:  'LPC1768 Flash' 
+ * Project: 'ac_control' 
+ * Target:  'Simulator' 
  */
 
 #ifndef RTE_COMPONENTS_H
