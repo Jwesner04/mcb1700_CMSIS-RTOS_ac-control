@@ -1,0 +1,10 @@
+.\ram\glcd_spi_lpc1700.o: GLCD_SPI_LPC1700.c
+.\ram\glcd_spi_lpc1700.o: C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\lpc17xx.h
+.\ram\glcd_spi_lpc1700.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h
+.\ram\glcd_spi_lpc1700.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\ram\glcd_spi_lpc1700.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h
+.\ram\glcd_spi_lpc1700.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h
+.\ram\glcd_spi_lpc1700.o: C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\system_LPC17xx.h
+.\ram\glcd_spi_lpc1700.o: GLCD.h
+.\ram\glcd_spi_lpc1700.o: Font_6x8_h.h
+.\ram\glcd_spi_lpc1700.o: Font_16x24_h.h

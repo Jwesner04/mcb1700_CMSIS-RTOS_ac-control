@@ -1,0 +1,80 @@
+Dependencies for Project 'Blinky', Target 'LPC1768 RAM': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x57D9661C)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I G:\Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 516" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1" --pd "NO_CRP SETA 1"--list .\ram\startup_lpc17xx.lst --xref -o .\ram\startup_lpc17xx.o --depend .\ram\startup_lpc17xx.d)
+F (.\system_LPC17xx.c)(0x57D9661C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x -D__USE_LCD -D__ADC_IRQ-o .\ram\system_lpc17xx.o --omf_browse .\ram\system_lpc17xx.crf --depend .\ram\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\LPC17xx.h)(0x4FF5B4C8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\system_LPC17xx.h)(0x4DA5A23C)
+F (.\GLCD_SPI_LPC1700.c)(0x57D9661C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x -D__USE_LCD -D__ADC_IRQ-o .\ram\glcd_spi_lpc1700.o --omf_browse .\ram\glcd_spi_lpc1700.crf --depend .\ram\glcd_spi_lpc1700.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\lpc17xx.h)(0x4FF5B4C8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\system_LPC17xx.h)(0x4DA5A23C)
+I (GLCD.h)(0x57D9661C)
+I (Font_6x8_h.h)(0x57D9661C)
+I (Font_16x24_h.h)(0x57D9661C)
+F (.\Retarget.c)(0x57D9661C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x -D__USE_LCD -D__ADC_IRQ-o .\ram\retarget.o --omf_browse .\ram\retarget.crf --depend .\ram\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (Serial.h)(0x57D9661C)
+F (.\Serial.c)(0x57D9661C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x -D__USE_LCD -D__ADC_IRQ-o .\ram\serial.o --omf_browse .\ram\serial.crf --depend .\ram\serial.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\LPC17xx.H)(0x4FF5B4C8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\system_LPC17xx.h)(0x4DA5A23C)
+I (Serial.h)(0x57D9661C)
+F (.\LED.c)(0x57E128DE)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x -D__USE_LCD -D__ADC_IRQ-o .\ram\led.o --omf_browse .\ram\led.crf --depend .\ram\led.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\LPC17xx.H)(0x4FF5B4C8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\system_LPC17xx.h)(0x4DA5A23C)
+I (LED.h)(0x57E12098)
+F (.\IRQ.c)(0x57E13076)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x -D__USE_LCD -D__ADC_IRQ-o .\ram\irq.o --omf_browse .\ram\irq.crf --depend .\ram\irq.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\LPC17xx.H)(0x4FF5B4C8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\system_LPC17xx.h)(0x4DA5A23C)
+I (LED.h)(0x57E12098)
+I (ADC.h)(0x57D9661C)
+I (mcb1700_joystick.h)(0x57E134F0)
+F (.\Blinky.c)(0x57E149A6)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x -D__USE_LCD -D__ADC_IRQ-o .\ram\blinky.o --omf_browse .\ram\blinky.crf --depend .\ram\blinky.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\LPC17xx.H)(0x4FF5B4C8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\system_LPC17xx.h)(0x4DA5A23C)
+I (GLCD.h)(0x57D9661C)
+I (Serial.h)(0x57D9661C)
+I (LED.h)(0x57E12098)
+I (ADC.h)(0x57D9661C)
+F (.\ADC.c)(0x57D9661C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x -D__USE_LCD -D__ADC_IRQ-o .\ram\adc.o --omf_browse .\ram\adc.crf --depend .\ram\adc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\LPC17xx.H)(0x4FF5B4C8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\system_LPC17xx.h)(0x4DA5A23C)
+I (ADC.h)(0x57D9661C)
+F (.\mcb1700_joystick.c)(0x57E134B0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I G:\Blinky\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include-D__UVISION_VERSION="516" -D_RTE_ -DLPC175x_6x -D__USE_LCD -D__ADC_IRQ-o .\ram\mcb1700_joystick.o --omf_browse .\ram\mcb1700_joystick.crf --depend .\ram\mcb1700_joystick.d)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\LPC17xx.H)(0x4FF5B4C8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm3.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF9EB2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x5509E4C4)
+I (C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.1.0\Device\Include\system_LPC17xx.h)(0x4DA5A23C)
+I (mcb1700_joystick.H)(0x57E134F0)
+F (.\Abstract.txt)(0x57D9661C)()

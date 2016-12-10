@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\ram\startup_lpc17xx.o"
+".\ram\system_lpc17xx.o"
+".\ram\glcd_spi_lpc1700.o"
+".\ram\retarget.o"
+".\ram\serial.o"
+".\ram\led.o"
+".\ram\irq.o"
+".\ram\blinky.o"
+".\ram\adc.o"
+".\ram\mcb1700_joystick.o"
+--library_type=microlib --strict --scatter ".\RAM\Blinky.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\RAM\Blinky.map" -o .\RAM\Blinky.axf
